@@ -1,6 +1,6 @@
 # Chocolate Flavours
+Dataset was dowloaded from https://www.kaggle.com/ and dashboard created using Excel.
 
-Context
 Chocolate is one of the most popular candies in the world. Each year, residents of the United States collectively eat more than 2.8 billions pounds. However, not all chocolate bars are created equal! This dataset contains expert ratings of over 1,700 individual chocolate bars, along with information on their regional origin, percentage of cocoa, the variety of chocolate bean used and where the beans were grown.
 Flavors of Cacao Rating System:
 5= Elite (Transcending beyond the ordinary limits)
@@ -18,10 +18,6 @@ Overall Opinion is really where the ratings reflect a subjective opinion. Ideall
 
 Acknowledgements
 These ratings were compiled by Brady Brelinski, Founding Member of the Manhattan Chocolate Society. For up-to-date information, as well as additional content (including interviews with craft chocolate makers), please see his website:  http://flavorsofcacao.com/index.html
-
-
-Dataset was dowloaded from :
-https://www.kaggle.com/
 
 
 License: 
