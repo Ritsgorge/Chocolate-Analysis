@@ -1,6 +1,10 @@
 # Chocolate Flavours
-Dataset was dowloaded from https://www.kaggle.com/ and dashboard created using Excel.
 
+I was able to perform analysis and visualization after being a part of a WhatsApp group created by data enthusiasts with the objective of performing data analysis for portfolio creation and overall growth and improvement. 
+
+![Cocoa Dashboard](https://user-images.githubusercontent.com/116006674/226657654-4c9f88c0-dd01-4bae-ba2b-4ea005f03a15.png)
+
+# About Dataset
 Chocolate is one of the most popular candies in the world. Each year, residents of the United States collectively eat more than 2.8 billions pounds. However, not all chocolate bars are created equal! This dataset contains expert ratings of over 1,700 individual chocolate bars, along with information on their regional origin, percentage of cocoa, the variety of chocolate bean used and where the beans were grown.
 Flavors of Cacao Rating System:
 5= Elite (Transcending beyond the ordinary limits)
@@ -19,9 +23,22 @@ Overall Opinion is really where the ratings reflect a subjective opinion. Ideall
 Acknowledgements
 These ratings were compiled by Brady Brelinski, Founding Member of the Manhattan Chocolate Society. For up-to-date information, as well as additional content (including interviews with craft chocolate makers), please see his website:  http://flavorsofcacao.com/index.html
 
+License: https://creativecommons.org/publicdomain/zero/1.0/
 
-License: 
-https://creativecommons.org/publicdomain/zero/1.0/
+The dataset was dowloaded from https://www.kaggle.com/
 
+# Objective
+What I understood as the business task is to identify the countries where the best cocoa beans are grown based on rating. Also, to see if there’s a correlation (if any and what kind) that exists between cocoa % and rating.
 
+# Data cleaning
+	Re-aligned the headers
+	Checked for and removed duplicates
+	Applied filter and checked for misspellings on all columns and removed blanks under ‘broad bean origin’ column.
+	Dropped about 4 columns because they were not important for the analysis
 
+# Conclusion
+VENEZUELA had the highest rated chocolate and it is where the best cocoa bean is grown. I compared the broad regions against the rating column on a pivot table. I limited the countries that produce the highest rated bars to 5.
+
+The higher cocoa % had the lowest ratings. I believe ratings were determined also considering the broad bean origin of the cocoa bean considering the fact that venezuela did not produce the cocoa bean with the highest cocoa % but still had the highest rating.
+
+My conclusion is that varying factors asides cocoa % such as bean type and country of origin determine the rating of a cocoa bean.
