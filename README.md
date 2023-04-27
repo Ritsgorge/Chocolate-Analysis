@@ -1,10 +1,9 @@
-# Chocolate Flavors Dataset
+# Exploratory analysis on Chocolate Flavors 
 
 I was able to carry out analysis and visualization of Chocolate Flavors dataset using Microsoft Excel after being a part of a WhatsApp group created by data enthusiasts with the objective of performing data analysis for portfolio creation and overall growth and improvement. 
 
-![Cocoa Dashboard](https://user-images.githubusercontent.com/116006674/226657654-4c9f88c0-dd01-4bae-ba2b-4ea005f03a15.png)
-
 # About Dataset
+The dataset was dowloaded from https://www.kaggle.com/
 Chocolate is one of the most popular candies in the world. Each year, residents of the United States collectively eat more than 2.8 billions pounds. However, not all chocolate bars are created equal! This dataset contains expert ratings of over 1,700 individual chocolate bars, along with information on their regional origin, percentage of cocoa, the variety of chocolate bean used and where the beans were grown.
 Flavors of Cacao Rating System:
 5= Elite (Transcending beyond the ordinary limits)
@@ -25,13 +24,6 @@ These ratings were compiled by Brady Brelinski, Founding Member of the Manhattan
 
 License: https://creativecommons.org/publicdomain/zero/1.0/
 
-The dataset was dowloaded from https://www.kaggle.com/
-
-# Objective/Business questions
-1. Where are the best cocoa beans grown?
-2. Which countries produce the highest-rated bars?
-3. What’s the relationship between cocoa solids percentage and rating?
-
 
 # Data cleaning
 ✓Re-aligned the headers
@@ -39,10 +31,20 @@ The dataset was dowloaded from https://www.kaggle.com/
 ✓Applied filter and checked for misspellings on all columns and removed blanks under ‘broad bean origin’ column.
 ✓Dropped about 4 columns because they were not important for the analysis
 
-# Insights
+
+# Objectives
+Below are the business questions to be answered from analysis;
+1. Where are the best cocoa beans grown?
+2. Which countries produce the highest-rated bars?
+3. What’s the relationship between cocoa solids percentage and rating?
+
+# Analysis & Insights
+
+![Cocoa Dashboard](https://user-images.githubusercontent.com/116006674/226657654-4c9f88c0-dd01-4bae-ba2b-4ea005f03a15.png)
+
 My findings after analysis showed that VENEZUELA had the highest rated chocolate and it is where the best cocoa bean is grown. I compared the broad regions against the rating column on a pivot table. I limited the countries that produce the highest rated bars to 5.
 
 The higher cocoa % had the lowest ratings. I believe ratings were determined also considering the broad bean origin of the cocoa bean considering the fact that venezuela did not produce the cocoa bean with the highest cocoa % but still had the highest rating.
 
 # Conclusion
-Vrying factors, asides cocoa % such as bean type and country of origin, determine the rating of a cocoa bean.
+Varying factors, asides cocoa % such as bean type and country of origin, determine the rating of a cocoa bean.
